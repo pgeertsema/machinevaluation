@@ -98,7 +98,7 @@ debt_eb = debt/ebitda
 book_eb = book/ebitda 
 sale_eb = sale/ebitda 
 
-loaded_model = lgb.Booster(model_file=DATA + 'base_model.txt')
+loaded_model = lgb.Booster(model_file='base_model.txt')
 
 # Index(['book_eb', 'debt_eb', 'ib_eq', 'industry', 'rate1yr_mc', 'sale_eb'], dtype='object')
 X_dict = {'book_eb':book_eb, 'debt_eb':debt_eb, 'ib_eb':ib_eb, 'industry':industry, 'rate1yr_mc':rate1yr_mc, 'sale_eb':sale_eb}
