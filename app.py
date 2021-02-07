@@ -82,7 +82,7 @@ ff49 = [
     '49-Almost Nothing or Missing'
 ]
 
-DATA = 'C:/data/MV/Work/'
+DATA = ''
 
 st.set_page_config(page_title='', page_icon=":dollar:", layout='centered', initial_sidebar_state='expanded')
 st.header('Machine Valuation')
